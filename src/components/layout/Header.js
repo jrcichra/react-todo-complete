@@ -5,9 +5,9 @@ export default function Header() {
     return (
         <header style={headerStyle}>
             <h1>TodoList</h1>
-            <Link style={linkStyle} to="/react-todo/">Home</Link>
+            <Link style={linkStyle} to="/">Home</Link>
             <span> | </span>
-            <Link style={linkStyle} to="/react-todo/about">About</Link>
+            <Link style={linkStyle} to="/about">About</Link>
         </header>
     )
 }
